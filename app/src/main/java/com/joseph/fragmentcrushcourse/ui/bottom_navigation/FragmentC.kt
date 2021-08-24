@@ -1,16 +1,18 @@
-package com.joseph.fragmentcrushcourse
-
+package com.joseph.fragmentcrushcourse.ui.bottom_navigation
 import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleObserver
+import com.joseph.fragmentcrushcourse.R
 import timber.log.Timber
 
-private const val TAG = "[FragmentA]"
+private const val TAG = "[FragmentC]"
 
-class FragmentA : Fragment() {
+class FragmentC : Fragment() {
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
@@ -27,7 +29,7 @@ class FragmentA : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         Timber.tag(TAG).d("- onCreateView()")
-        return inflater.inflate(R.layout.fragment_a, container, false)
+        return inflater.inflate(R.layout.fragment_c, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

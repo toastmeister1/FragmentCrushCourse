@@ -11,10 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FragmentCrushCourse">
         <activity
-            android:name=".BottomNavigationActivity"
+            android:name=".ui.bottom_navigation.BottomNavigationActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

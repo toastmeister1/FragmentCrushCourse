@@ -1,4 +1,4 @@
-package com.joseph.fragmentcrushcourse
+package com.joseph.fragmentcrushcourse.ui.bottom_navigation
 
 import android.content.Context
 import android.os.Bundle

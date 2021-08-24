@@ -1,11 +1,14 @@
-package com.joseph.fragmentcrushcourse
+package com.joseph.fragmentcrushcourse.ui.bottom_navigation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
+import com.joseph.fragmentcrushcourse.FragmentA
+import com.joseph.fragmentcrushcourse.FragmentB
+import com.joseph.fragmentcrushcourse.FragmentC
+import com.joseph.fragmentcrushcourse.R
 import com.joseph.fragmentcrushcourse.databinding.ActivityBottomNavigationBinding
-import com.joseph.fragmentcrushcourse.databinding.ActivityMainBinding
 import timber.log.Timber
 
 class BottomNavigationActivity : AppCompatActivity() {
